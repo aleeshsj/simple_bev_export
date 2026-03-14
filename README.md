@@ -84,8 +84,16 @@ python ./src/eval_nuscenes.py \
        --onnx_runtime=True
 ```
 
+## MSE ONNX VS Pytorch 
 
 
+
+| Model-output-name | MSE |
+| :---: |  :---: | 
+| feat_bev_e | 47.2 7.572857813921419e-13  |
+| seg_bev_e | 5.4607436628106854e-11  | 
+| center_bev_e | 6.913018741434504e-14  | 
+| offset_bev_e | 1.3820489197513552e-10  | 
 ## Citation
 
 Credits
