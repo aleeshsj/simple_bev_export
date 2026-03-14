@@ -1,0 +1,95 @@
+model_name 8x5_5e-4_rgb12_22:43:46_1_0_23:50:02
+loading nuscenes...
+making parser...
+indices (323, 1)
+NuscData: 323 samples. Split: train.
+                   Augmentation Conf: {'final_dim': (448, 800), 'cams': ['CAM_FRONT_LEFT', 'CAM_FRONT', 'CAM_FRONT_RIGHT', 'CAM_BACK_LEFT', 'CAM_BACK', 'CAM_BACK_RIGHT'], 'ncams': 6}
+indices (81, 1)
+NuscData: 81 samples. Split: val.
+                   Augmentation Conf: {'final_dim': (448, 800), 'cams': ['CAM_FRONT_LEFT', 'CAM_FRONT', 'CAM_FRONT_RIGHT', 'CAM_BACK_LEFT', 'CAM_BACK', 'CAM_BACK_RIGHT'], 'ncams': 6}
+data ready
+total_params 42048711
+reading ckpt from checkpoints/8x5_5e-4_rgb12_22:43:46
+...found checkpoint checkpoints/8x5_5e-4_rgb12_22:43:46/model-000025000.pth
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000001/81; rtime 0.00; itime 0.64 (643.74 ms); loss 1.08441; iou_ev 60.6
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000002/81; rtime 0.01; itime 0.18 (411.31 ms); loss 3.19920; iou_ev 55.0
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000003/81; rtime 0.00; itime 0.18 (333.07 ms); loss 2.58834; iou_ev 55.5
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000004/81; rtime 0.00; itime 0.18 (293.60 ms); loss 3.29753; iou_ev 55.4
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000005/81; rtime 0.01; itime 0.18 (270.97 ms); loss 4.04845; iou_ev 56.4
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000006/81; rtime 0.01; itime 0.18 (256.58 ms); loss 4.87998; iou_ev 55.5
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000007/81; rtime 0.00; itime 0.18 (245.12 ms); loss 5.12480; iou_ev 55.3
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000008/81; rtime 0.00; itime 0.18 (236.42 ms); loss 3.18773; iou_ev 55.4
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000009/81; rtime 0.02; itime 0.20 (232.90 ms); loss 2.64765; iou_ev 54.1
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000010/81; rtime 0.00; itime 0.18 (227.59 ms); loss 2.30077; iou_ev 53.0
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000011/81; rtime 0.00; itime 0.18 (222.93 ms); loss 2.37385; iou_ev 51.8
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000012/81; rtime 0.01; itime 0.22 (222.93 ms); loss 1.42635; iou_ev 51.5
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000013/81; rtime 0.01; itime 0.18 (219.66 ms); loss 1.34332; iou_ev 52.0
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000014/81; rtime 0.01; itime 0.19 (217.48 ms); loss 1.43291; iou_ev 51.8
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000015/81; rtime 0.01; itime 0.18 (215.17 ms); loss 1.29754; iou_ev 52.0
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000016/81; rtime 0.00; itime 0.20 (214.36 ms); loss 2.13918; iou_ev 51.6
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000017/81; rtime 0.01; itime 0.18 (212.26 ms); loss 2.52337; iou_ev 51.6
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000018/81; rtime 0.00; itime 0.18 (210.39 ms); loss 4.25477; iou_ev 51.4
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000019/81; rtime 0.00; itime 0.18 (208.56 ms); loss 5.19728; iou_ev 51.2
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000020/81; rtime 0.00; itime 0.18 (207.08 ms); loss 3.52244; iou_ev 51.3
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000021/81; rtime 0.00; itime 0.17 (205.52 ms); loss 3.63362; iou_ev 51.4
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000022/81; rtime 0.01; itime 0.19 (204.69 ms); loss 3.66698; iou_ev 51.0
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000023/81; rtime 0.00; itime 0.17 (203.37 ms); loss 2.53544; iou_ev 51.5
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000024/81; rtime 0.00; itime 0.18 (202.22 ms); loss 3.21156; iou_ev 51.5
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000025/81; rtime 0.00; itime 0.18 (201.17 ms); loss 1.86520; iou_ev 51.7
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000026/81; rtime 0.00; itime 0.18 (200.18 ms); loss 2.27963; iou_ev 51.7
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000027/81; rtime 0.00; itime 0.18 (199.29 ms); loss 3.51965; iou_ev 51.5
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000028/81; rtime 0.01; itime 0.19 (198.82 ms); loss 4.35593; iou_ev 51.1
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000029/81; rtime 0.01; itime 0.19 (198.51 ms); loss 5.15882; iou_ev 50.8
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000030/81; rtime 0.01; itime 0.19 (198.18 ms); loss 5.47493; iou_ev 50.8
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000031/81; rtime 0.01; itime 0.18 (197.54 ms); loss 4.90887; iou_ev 50.8
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000032/81; rtime 0.00; itime 0.18 (196.90 ms); loss 5.28268; iou_ev 50.5
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000033/81; rtime 0.01; itime 0.19 (196.77 ms); loss 4.69131; iou_ev 50.5
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000034/81; rtime 0.00; itime 0.17 (196.09 ms); loss 3.05444; iou_ev 50.2
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000035/81; rtime 0.01; itime 0.19 (195.95 ms); loss 2.20563; iou_ev 50.1
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000036/81; rtime 0.00; itime 0.18 (195.39 ms); loss 2.75709; iou_ev 50.1
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000037/81; rtime 0.00; itime 0.17 (194.83 ms); loss 2.30689; iou_ev 50.1
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000038/81; rtime 0.00; itime 0.18 (194.33 ms); loss 2.39693; iou_ev 50.0
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000039/81; rtime 0.01; itime 0.18 (193.87 ms); loss 2.60945; iou_ev 49.8
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000040/81; rtime 0.00; itime 0.17 (193.38 ms); loss 3.80326; iou_ev 49.6
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000041/81; rtime 0.00; itime 0.18 (192.94 ms); loss 3.82946; iou_ev 49.3
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000042/81; rtime 0.00; itime 0.18 (192.60 ms); loss -1.16624; iou_ev 49.4
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000043/81; rtime 0.00; itime 0.18 (192.27 ms); loss 0.38994; iou_ev 49.4
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000044/81; rtime 0.15; itime 0.34 (195.53 ms); loss 2.77570; iou_ev 49.4
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000045/81; rtime 0.02; itime 0.27 (197.10 ms); loss 1.36641; iou_ev 49.5
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000046/81; rtime 0.01; itime 0.25 (198.33 ms); loss 0.71248; iou_ev 49.5
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000047/81; rtime 0.00; itime 0.18 (197.89 ms); loss -0.12041; iou_ev 49.5
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000048/81; rtime 0.00; itime 0.17 (197.41 ms); loss -0.24618; iou_ev 49.5
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000049/81; rtime 0.00; itime 0.17 (196.93 ms); loss 0.48338; iou_ev 49.6
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000050/81; rtime 0.00; itime 0.18 (196.56 ms); loss -0.35266; iou_ev 49.8
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000051/81; rtime 0.01; itime 0.18 (196.18 ms); loss -0.54988; iou_ev 49.9
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000052/81; rtime 0.01; itime 0.22 (196.64 ms); loss -0.43864; iou_ev 50.0
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000053/81; rtime 1.13; itime 1.31 (217.56 ms); loss 0.30830; iou_ev 50.0
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000054/81; rtime 0.00; itime 0.17 (216.76 ms); loss 0.59705; iou_ev 50.1
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000055/81; rtime 0.01; itime 0.20 (216.43 ms); loss 0.61818; iou_ev 50.1
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000056/81; rtime 0.01; itime 0.26 (217.28 ms); loss 1.35380; iou_ev 50.0
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000057/81; rtime 0.01; itime 0.19 (216.87 ms); loss 0.83776; iou_ev 50.1
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000058/81; rtime 0.00; itime 0.18 (216.18 ms); loss 0.62795; iou_ev 50.0
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000059/81; rtime 0.00; itime 0.18 (215.53 ms); loss 2.23317; iou_ev 50.1
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000060/81; rtime 0.01; itime 0.18 (214.95 ms); loss 1.04072; iou_ev 50.2
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000061/81; rtime 0.00; itime 0.18 (214.35 ms); loss 1.82265; iou_ev 50.3
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000062/81; rtime 0.00; itime 0.18 (213.77 ms); loss 1.45636; iou_ev 50.4
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000063/81; rtime 0.00; itime 0.17 (213.14 ms); loss 1.47950; iou_ev 50.5
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000064/81; rtime 0.00; itime 0.18 (212.61 ms); loss 0.93509; iou_ev 50.6
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000065/81; rtime 0.21; itime 0.38 (215.25 ms); loss 0.71885; iou_ev 50.8
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000066/81; rtime 0.00; itime 0.17 (214.63 ms); loss 0.68839; iou_ev 50.8
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000067/81; rtime 0.00; itime 0.18 (214.09 ms); loss 1.30335; iou_ev 50.9
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000068/81; rtime 0.00; itime 0.17 (213.50 ms); loss 1.13516; iou_ev 50.9
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000069/81; rtime 0.00; itime 0.18 (213.00 ms); loss 1.02158; iou_ev 51.0
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000070/81; rtime 0.00; itime 0.18 (212.51 ms); loss 1.45826; iou_ev 51.0
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000071/81; rtime 0.00; itime 0.18 (212.03 ms); loss 1.31651; iou_ev 51.1
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000072/81; rtime 0.01; itime 0.18 (211.55 ms); loss 1.77456; iou_ev 51.1
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000073/81; rtime 0.00; itime 0.17 (211.04 ms); loss 1.64200; iou_ev 51.2
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000074/81; rtime 0.00; itime 0.17 (210.53 ms); loss 1.17561; iou_ev 51.3
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000075/81; rtime 0.00; itime 0.17 (210.04 ms); loss 0.64564; iou_ev 51.5
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000076/81; rtime 0.00; itime 0.17 (209.56 ms); loss 0.96987; iou_ev 51.7
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000077/81; rtime 0.00; itime 0.17 (209.11 ms); loss 0.86259; iou_ev 51.8
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000078/81; rtime 0.00; itime 0.17 (208.64 ms); loss 0.65037; iou_ev 51.9
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000079/81; rtime 0.00; itime 0.17 (208.21 ms); loss 0.53984; iou_ev 51.9
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000080/81; rtime 0.00; itime 0.17 (207.79 ms); loss 0.61124; iou_ev 52.0
+8x5_5e-4_rgb12_22:43:46_1_0_23:50:02; step 000081/81; rtime 0.00; itime 0.17 (207.38 ms); loss 1.52835; iou_ev 52.0
+final mini mean iou 52.035541195476576

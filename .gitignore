@@ -1,0 +1,6 @@
+__pycache__
+./*/__pycache__
+./*/*/__pycache__
+./*/*/*/__pycache__
+./src/.git/       
+./src/.gitignore
